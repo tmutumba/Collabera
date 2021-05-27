@@ -1,0 +1,26 @@
+How to implement multiple condition using WHERE clause?
+	using And and Or. if one wanted to filter an SQL commands with multiple conditions/arguments they would need to use And, Or and both of them together. this would provide more ground to filter the command. 
+
+What are DICT and List comprehensions?
+	List comprehensions are constructed from brackets containing an expression, which is followed by a for clause.
+	Dictionary comprehensions are similar to list comprehensions however with DICT you can iterable or transforming data. 
+
+Security Group Vs Network Access Control List
+	Security Group statefull and NACL is stateless. 
+	NACL is the first layer of security.  
+
+XML Vs JSON
+	JSON object has a type whereas XML data is typeless.
+	JSON does not provide namespace support while XML provides namespaces support.
+	JSON has no display capabilities whereas XML offers the capability to display data.
+	JSON is less secured whereas XML is more secure compared to JSON.
+	JSON supports only UTF-8 encoding whereas XML supports various encoding formats.
+
+	Preferrably JSON is the go to because XML is much more difficult to parse than JSON and also
+JSON is parsed into a ready-to-use JavaScript object.
+
+How do you assign access permission with the mkdir command?
+
+two ways:
+	Using Symbols 
+	Using Octal/numerical format

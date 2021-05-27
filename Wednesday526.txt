@@ -1,0 +1,28 @@
+What is ACID property in a database? 
+	Atomicity: All changes to data are performed as if they are single operations. All chnages go or non goes.  
+	Consistency: Data is in a consistent state when a transaction starts and when it ends. 
+	Isolation: The Intermediate state of a transaction is invisible to other transactions. As a result, transactions that run concurrently should be serialized.
+	Durability: After a transaction successfully completes, changes to data persist and are not undone, even in the event of a system failure.  
+
+What are the different authentication modes in SQL server? How can it be changed?
+1- Enable mixed mode Authentication in Management Studio.
+	log into SQL server management studio.
+	find properties in the object explorer. 
+	Then in security choose SQL Server and Windows Authentication mode
+2- Enable mixed mode Authentication from Registry.
+	Using a key
+
+In what context would you use one AWS instance over another?
+	Each instance type has one or more size options that address different workload sizes. To make it easier for you to select the best option for your applications, Amazon EC2 instance types are grouped together into families based on target application profiles.
+
+Why would you want to make an inheritable class?
+	This is a like making a class as final. If you want to compose class from it. Singleton design pattern. 
+	Example is a String class. 
+
+What are the first steps to debugging a program a program that is running in production. 
+	Normally the first step in debugging is to attempt to reproduce the problem.
+	Recognize that a bug exists.
+	Isolate the source of the bug.
+	Identify the cause of the bug.
+	Determine a fix for the bug.
+	Apply the fix and test it.

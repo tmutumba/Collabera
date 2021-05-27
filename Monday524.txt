@@ -1,0 +1,24 @@
+Continuous Integration and Continuous Delivery? 
+	Continuous Integration is a process where new code and contantly written, tested, and added to an application. 
+	Continuous Delivery is a process where new code is tested and uploaded into the repo, where it can be deployed to a live environment by the Ops team.
+
+Props in React, What is state in React, How are they different?
+	Properties are objects of arbitrary inputs a React function accepts as their first argument. 
+	State is data that changes over the lifetime of a specific instance of a react component.  
+
+	Props are different because there are just variables that a passed and not managed by the components however, the states are directly managed by the components. 
+
+Where do you include your database credentials in a Spring Boot projects?
+	Use the POM file.
+
+What is online Transaction Processing?  
+	This is a software designed to support transaction-related applications on the internet. It involves inserting, updating and deleting data quickly.  
+
+How many ways can be applied to reverse string? 
+	Using StringBuilder/StringBuffer
+	Using Java Collections Framework reverse() method
+	Using character array and swap()
+	Using + (string concatenation) operator
+	Using Unicode Right-to-left override (RLO) character
+	Using Recursion
+	Using substring() method

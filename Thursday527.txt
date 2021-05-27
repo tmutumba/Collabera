@@ -1,0 +1,26 @@
+How would you keep information secure during transmission? How do you encrypt connection?
+	email encryption 
+	Website encryption 
+	File Transfer Protocol and Secure File Transfer Protocol
+ 	Secure HyperText Transfer Protocol(HTTP). 
+
+What is meant by "Thread Safe"? Give an example of multi-threading?
+	Thread-safe code only manipulates shared data structures in a manner that ensures that all threads behave properly and fulfill their design specifications without unintended interaction
+	a multithreaded operating system may run several background tasks, such as logging file changes, indexing data, and managing windows at the same time.
+
+How would you use a SOQL?
+	The Salesforce Object Query Language (SOQL) is used to search an organization’s Salesforce data for specific information.  
+	SOQL is similar to the select in SQL but designed for salesforce data. 
+
+What is Scope in Spring? How many are there and what are the differences btw them?
+	Scope are used to create control of Optimization.
+	singleton  
+	Once in a session  
+
+What are the different database types in RDS?
+	Amazon Aurora 
+	PostgreSQL 
+	MySQL 
+	MariaDB 
+	Oracle Database 
+	SQL Server.
