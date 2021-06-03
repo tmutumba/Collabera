@@ -1,0 +1,41 @@
+What happens when you change an object that has been serialized and written to a file?
+	A serialized and written object is indepndent of the platform its on. So the object can be changed by deserializing  
+it to its original form. 
+
+What are Lifecycle Methods in Stateful React Components?
+	React component has a life cycle, which consists of three phases: 
+	Mounting, that is putting inserting elements into the DOM. 
+	Updating, which involves methods for updating components in the DOM. 
+	Unmounting, that is removing a component from the DOM. 
+
+What do Thunks and Sagas do?
+	Saga works like a separate thread or a background process that is solely responsible for making your side effects or 
+API calls unlike redux-thunk, which uses callbacks which may lead to situations like 'callback hell' in some cases.
+
+Is python an interpreted language or compiled? What is the difference
+	Python is an interpreted language.
+Differences:
+	A compiled language is a programming language whose implementations are typically compilers and not interpreters while
+An interpreted language is a programming language whose implementations execute instructions directly and freely, without previously 
+compiling a program into machine-language instructions.  
+	For compiled language once the program is compiled it is expressed in the instructions of the target machine while 
+for Interpreted language the instructions are not directly executed by the target machine.
+	Compiled language run faster than interpreted languages. 
+	In Compiled languages errors prevent the code from compiling while the interpreted languages all the debugging 
+occurs at run-time. 
+	
+
+SQL - Normalization, explain 1st norm and 2nd norm concepts, explain joins, explain the difference between left and full joins
+	Normalization is the process of restructuring a relational database in accordance with a series of so-called normal 
+forms in order to reduce data redundancy and improve data integrity.
+	1NF: Each table cell should contain a single value.
+	     Each record needs to be unique.
+	     Values stored in a column should be of the same domain.
+
+	2NF: Rule 1- Be in 1NF.
+	     Rule 2- Single Column Primary Key.
+	     And, it should not have Partial Dependency. 
+
+JOINS in SQL are commands which are used to combine rows from two or more tables, based on a related column between those tables.
+Full Join or the Full Outer Join returns all those records which either have a match in the left(Table1) or the right(Table2) table
+WHILE The LEFT JOIN or the LEFT OUTER JOIN  returns all the records from the left table and also those records which satisfy a condition from the right table.

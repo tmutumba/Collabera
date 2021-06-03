@@ -1,0 +1,31 @@
+if a class extends another class what parameters in the parent class can be seen in the child?
+	All the attributes and methods from th eparent class will be seen in the child class as a 
+result of inheritance. 
+
+What is the difference between an "IS a" and "Has a" relationship, and how they are achieved?
+	"Is-a" relationship is inheritance Keyword Extend or Implements. 
+	"Has-a" relationship is composition Keyword Implements An instance of a class with a reference. 
+to an instance of another class.
+IS-A relationship is completely inheritance. This means, that the child class is a type of parent class.
+HAS-A means creating instances which have references to other objects. For example, a room has a table.
+
+What is continuous integration and what is Continuous delivery exposure?  
+	Continuous Integration is a process where new code and contantly written, tested, and added to 
+an application. 
+    	Continuous Delivery is a process where new code is tested and uploaded into the repo, where it 
+can be deployed to a live environment by the Ops team.
+
+What is AWS Lambda? 
+	AWS Lambda is an event-driven, serverless computing platform provided by Amazon as a part of 
+Amazon Web Services. It is a computing service that runs code in response to events and automatically 
+manages the computing resources required by that code.
+
+NumPy Vs SciPy?
+	NumPy is basically for basic operations such as sorting, indexing, and elementary functioning 
+on the array data type. On the other hand, SciPy contains all the algebraic functions some of which 
+are there in NumPy to some extent and not in full-fledged form.
+	NumPy on data array has given rise to what is referred to as NumPy Array while SciPy does not 
+have any such related array or list concepts as it is more functional and has no constraints like only 
+homogeneous data or heterogeneous data applicable.
+	NumPy is written in C and it is faster than SciPy is all aspects of execution.
+

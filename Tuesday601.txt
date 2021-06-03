@@ -1,0 +1,33 @@
+Talk about about big O notation and algorithms. Is bubble sort or merge sort better?
+	Big-O notation is the language we use for talking about how long an algorithm takes to run 
+(time complexity) or how much memory is used by an algorithm (space complexity). Big-O notation can 
+express the best, worst, and average-case running time of an algorithm.
+	The bubble sort is better than merge sort in practice for small set of data, but as size of 
+input data increases, the performance of bubble sort suddenly drop down and the exact opposite behavior 
+I found with merge sort.
+
+Can you describe the Waterfall model and the Agile model? How are they different?
+	Waterfall is a Liner Sequential Life Cycle Model whereas Agile is a continuous iteration of 
+development and testing in the software development process.
+Differences:
+	Agile is not useful method for small development projects while Waterfall is not ideal for large projects.
+	Agile separates the project development lifecycle into sprints while Software development process in the Waterfall model is divided into distinct phases.
+	Agile methodology is known for its flexibility while waterfall most times it can be quite rigid.
+	With Agile the test plan is reviewed after each sprint while with Waterfall the test plan is rarely discussed during the test phase.
+	
+What is an Inner Join in Relational Databases, and what is the difference between a Right Join and a Left Join?
+	An INNER JOIN is such type of join that returns all rows from both the participating tables 
+where the key record of one table is equal to the key records of another table.
+Differences: 
+	Left join joins two or more tables, returns all records from the left table, and matching rows from the right-hand table 
+while Right join is used to join two or more tables, returns all records from the right table, and matching rows from the left-hand table.
+	Left join result-set will contain null value if there is no matching row on the right side table 
+while Right join result-set will contain null value if there is no matching row on the left side table.
+	 Left join is also known as the LEFT OUTER JOIN while Right join is also known as the RIGHT OUTER JOIN.
+
+How to implement multiple conditions using WHERE clause?
+	By combining And and Or 
+	
+What are Regions and Availability Zones in aws
+AWS Regions are large and widely dispersed into separate geographic locations. Availability Zones are distinct locations within 
+an AWS Region that are engineered to be isolated from failures in other Availability Zones.
