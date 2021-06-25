@@ -1,0 +1,22 @@
+What is an index in SQL?
+	An index is an on-disk structure associated with a table or view that speeds retrieval of rows from the table or view. These keys are stored in a structure (B-tree) that enables SQL Server to find the row or rows associated with the key values quickly and efficiently.
+
+What is the difference between "preparedstatement" and "statement" in JDBC?
+	Statement – Used to execute string-based SQL queries Vs PreparedStatement – Used to execute parameterized SQL queries
+	A Statement is used when SQL query is to be executed only once while Preparedstatement is used when SQL query is to be executed multiple times.
+	You can not pass parameters at runtime with Statements while with PreparedStatement you can.  
+	Statements are used for CREATE, ALTER, DROP statements while PreparedStatement are used for the queries which are to be executed multiple times.
+	Performance is very low when using Statements as compared to preparedstatements. 
+
+When would you use "executeUpdate" and when would you "executeQuery"
+	"executeQuery" is used to execute the SQL statements which retrieve some data from the DB while "executeUpdate" is used to execute the SQL statements which update or modify the DB
+	"executeQuery" returns a resultset object which contains the results returned by the query while "executeUpdate" returns an int value which represents the number of rows affected by the query.
+	"executeUpdate" is used to execute only non-select queries while "executeQuery" is used to execute only select queries.
+	"executeQuery" includes only select while "executeUpdate" DML and DDL.  
+	
+How would you store a unique value in a database, and if the value already exists in the database, execute another function
+	If you declare an input value as a primary key it will be stored as a  unique value.  
+
+How do you connect a Mongo Database to a java application?
+Ny using: 
+	MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb://localhost:27017"));

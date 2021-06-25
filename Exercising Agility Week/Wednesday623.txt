@@ -1,0 +1,73 @@
+White board an example of a class and include sample properties and methods.
+	
+// Class Declaration
+ 
+public class Dog
+{
+    // Instance Variables
+    String name;
+    String breed;
+    int age;
+    String color;
+ 
+    // Constructor Declaration of Class
+    public Dog(String name, String breed,
+                   int age, String color)
+    {
+        this.name = name;
+        this.breed = breed;
+        this.age = age;
+        this.color = color;
+    }
+ 
+    // method 1
+    public String getName()
+    {
+        return name;
+    }
+ 
+    // method 2
+    public String getBreed()
+    {
+        return breed;
+    }
+ 
+    // method 3
+    public int getAge()
+    {
+        return age;
+    }
+ 
+    // method 4
+    public String getColor()
+    {
+        return color;
+    }
+ 
+    @Override
+    public String toString()
+    {
+        return("Hi my name is "+ this.getName()+
+               ".\nMy breed,age and color are " +
+               this.getBreed()+"," + this.getAge()+
+               ","+ this.getColor());
+    }
+ 
+    public static void main(String[] args)
+    {
+        Dog tuffy = new Dog("tuffy","papillon", 5, "white");
+        System.out.println(tuffy.toString());
+    }
+}
+
+What are the differences between stateful and stateless components.
+	A stateless component is usually associated with how a concept is presented to the user. It is similar to a function in that, it takes an input (props) and returns the output. Vs A stateful component is always a class component. It is created by extending the React.Component class. A stateful component is dependent on it’s state object and can change it’s own state.
+
+How does Java and C++ differ when it comes to working on machines
+	C++ is compiled and run using the compiler which converts source code into machine code so, C++ is platform dependent. Vs Java uses compiler and interpreter both. Java source code is converted into bytecode at compilation time. The interpreter executes this bytecode at runtime and produces output. Java is interpreted that is why it is platform independent.
+	
+What is the difference between .twb and twbx extension in Tableau
+	The TWB file references a data source file such as Excel or TDE, and when you save the TWB file, it is linked to the source. Vs Tableau Packaged Workbook (TWBX) is a package of files “compressed” together. It includes a data source file, TWB, and any other file used to produce the workbook (including images)
+ 
+What is tableau data Server?  
+	The Data Server is a component of Tableau Server that will provide centralized management of Tableau Data Extracts and database connections. Tableau Data Extracts and Database connections can be managed centrally within Tableau Server and shared across workbooks.

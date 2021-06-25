@@ -1,0 +1,23 @@
+What is a Function in SQL?
+	A function is a set of SQL statements that perform a specific task. it must have name, only work with select statements, can be used anywhere in SQL, like AVG, COUNT, SUM, MIN, DATE, and return a value. 
+
+What is the difference btw a function and a stored procedure?  
+	The function must return a value but in Stored Procedure it is optional. Even a procedure can return zero or n values.
+	Functions can have only input parameters for it whereas Procedures can have input or output parameters.
+	Functions can be called from Procedure whereas Procedures cannot be called from a Function.
+	We can use Transactions in Procedure whereas we can't use Transactions in Function.
+	Stored Procedures cannot be used in the SQL statements anywhere in the WHERE/HAVING/SELECT section whereas Function can be.
+
+What is the difference between COMMIT and ROLLBACK?
+	COMMIT permanently saves the changes made by current transaction. ROLLBACK undo the changes made by current transaction. 
+
+Hibernate framework? Hibernate framework to set up a repository? Advantages of hibernate?
+	Hibernate ORM (or simply Hibernate) is an object–relational mapping tool for the Java programming language. It provides a framework for mapping an object-oriented domain model to a relational database.  
+
+Advantages:
+	Hibernate code will work well for all databases, for ex: Oracle,MySQL. 
+	No knowledge of SQL is needed because Hibernate is a set of objects and a table is treated as an object, where as to work with JDBC, one need to know SQL.
+	Query tuning is not required in Hibernate. 
+
+How do you persist/retrieve data with springboot?
+	By using query(String sql, RowMapper<T> rowMapper) method which is from the JDBC module. 

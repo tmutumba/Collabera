@@ -1,0 +1,35 @@
+1) Primary difference between extending the tread class and implementing the runnable interface. 
+	When we extend Thread class, each of our thread creates unique object and associate with it. When we implements Runnable, it shares the same object to multiple threads.
+	If you extend Thread,  you can not extend anything else, On the other hand, Implementing the Runnable interface gives you the choice to extend any class.
+	In "implements Runnable", we are creating a different Runnable class for a specific behavior  job. It gives us the freedom to reuse the specific code or behavior while "extends Thread"  contains both thread and job specific behavior code.   
+	Implementing Runnable should be preferred. It does not specializing or modifying the thread behavior. And create a better composition relationship btn classes whereas "extends Thread"  is not a good Object Oriented practice.     
+
+2) In what format/how is information passed from your rest service to your view?
+	json object UR, XML 
+	
+
+3) Difference btw Mongo and MySQL when to use it?
+	MongoDB represents data as of JSON documents whereas MySQL represents data in tables and rows.
+    	In MongoDB, you don't need to define the schema while in MySQL you need to define your tables and columns 
+    	MongoDB uses JavaScript as query language while MySQL uses the Structured Query Language (SQL). 
+    	MongoDB doesn't support JOIN but MySQL supports JOIN operations.
+When to use them;
+    	MongoDB is an ideal choice if you have unstructured and/or structured data with the potential 
+for rapid growth while MYSQL is a great choice if you have structured data and need a traditional 
+relational database.
+
+4) Difference btn SQL and NoSQL concept
+	SQL databases are relational, NoSQL are non-relational.
+    	SQL databases are table based, while NoSQL databases are document, key-value, graph or wide-column stores.
+    	SQL databases use structured query language and have a predefined schema. NoSQL databases have dynamic schemas for unstructured data.
+    	SQL databases are vertically scalable, NoSQL databases are horizontally scalable.
+    	SQL databases are better for multi-row transactions, NoSQL are better for unstructured data like documents 
+or JSON.
+
+5) Difference btw SQL and NoSQL in practice .
+	Great support is available for all SQL database from their vendors. Also a lot of independent consultations are there who can help you with SQL database for a very large scale deployments but for some NoSQL database you still have to rely on community support and only limited outside experts are available for setting up and deploying your large scale NoSQL deployments. 
+	SQL databases are best suited for complex queries whereas NoSQL databases are not so good for complex queries
+	
+	
+
+ 
